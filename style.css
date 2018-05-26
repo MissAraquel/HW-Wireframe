@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    background-color: #777;
+    width: 960px;
+    font-size: 18px;
+    margin: auto;
+
+}
+
+header {
+    background: #ebebeb;
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #ebebeb;
+    width: auto;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    background: #ebebeb;
+    color: #777;
+    width: 495px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    padding: 20px;
+    text-align: center;
+    float: left;
+}
+aside {
+    background: #ebebeb;
+    color: #777;
+    width: 445px;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    height: 332px;
+    
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+} 
+
+article { 
+    background: #777;
+    color: #ebebeb;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    background: #ebebeb;
+    color: #777;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    background: #ebebeb;
+    color: #777;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+footer {
+    background: #ebebeb;
+    color: #777;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+    overflow: auto;
+    width: auto;
+}
+
+div {
+    line-height: 48px;
+}
